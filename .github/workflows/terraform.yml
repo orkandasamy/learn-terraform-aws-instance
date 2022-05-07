@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@orkandasamy 
-orkandasamy
-/
-devops-directive-terraform-course
-Public
-forked from sidpalas/devops-directive-terraform-course
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-devops-directive-terraform-course/.github/workflows/terraform.yml
-@sidpalas
-sidpalas disable staging deploy
-Latest commit 7592206 on Feb 13
- History
- 1 contributor
-112 lines (92 sloc)  3.54 KB
-   
 name: "Terraform"
 
 on:
