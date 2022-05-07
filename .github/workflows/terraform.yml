@@ -1,0 +1,23 @@
+name:  "Terraform"
+
+
+on:
+
+pull_request:
+
+jobs:
+  terraform:
+    name:  "Terraform"
+    runs_on:  ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID:  ${{ secrets.AWS_ACCESS_KEY_ID  }}
+      AWS_SECRET_ACCESS_KEY:  ${{ secrets.AWS_SECRET_ACCESS_KEY  }
+      
+    steps:
+      - name: HashiCorp - Setup Terraform
+  # You may pin to the exact commit or the version.
+  # uses: hashicorp/setup-terraform@17d4c9b8043b238f6f35641cdd8433da1e6f3867
+       uses: hashicorp/setup-terraform@v2.0.0
+  
+      
+    
